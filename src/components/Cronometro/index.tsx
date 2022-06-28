@@ -35,7 +35,7 @@ export default function Cronometro({ selecionado, finalizarTarefa }: Props) {
       <div className={style.relogioWrapper}>
         <Relogio tempo={tempo} />
       </div>
-      <Botao onClick={() => regressiva(tempo)} texto="Começar" />
+      <Botao onClick={() => regressiva(tempo)}>Começar</Botao>
     </div>
   );
 }
